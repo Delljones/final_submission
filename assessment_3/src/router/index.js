@@ -6,7 +6,6 @@ import Blog from "@/views/BlogView";
 import Community from '@/views/CommunityView';
 import SignUp from '@/views/SignUp';
 
-
 const routes = [
   { path: "/", name: "home", component: Home },
   { path: "/about", name: "about", component: About },
