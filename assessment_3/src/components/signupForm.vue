@@ -4,7 +4,7 @@ new Vue ({
     data() {
         return {
             message: "This is a sign up sheet  - in signup.js!",
-            formname: "",
+            formName: "",
             password: "",
             email:""
         }

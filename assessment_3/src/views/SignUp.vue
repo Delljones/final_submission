@@ -1,52 +1,31 @@
-<script>
-
-export default {
-  data() {
-    return {
-      message: "This is lab 6!",
-      name: "",
-      password: "",
-      email: "",
-      checkedValues: [],
-      optionMessage: "How did you hear about us? ",
-      selected: "",
-    }
-  }
-}
-
-</script>
-
-
 <template>
   <div id="form">
-    <h1> Signup to Receive our Updates</h1>
-    <div>
-      <label for="">Name: </label>
-      <input type="text" v-model="formname">
-      <br/>
-      <br/>
-      <label for="">Password: </label>
-      <input type="text" v-model="password">
-      <br/>
-      <br/>
-      <label for="">Email: </label>
-      <input type="email" v-model="email">
+    <div class="input">
+      <h1> Signup For More!</h1>
+      <h2> Signup now and receive the
+        <br>latest information straight to
+        <br>your inbox! </h2>
+
+      <label for=""></label>
+      <input type="text" placeholder="Name" v-model="formname">
+      <label for=""></label>
+      <input type="email" placeholder="Email" v-model="email">
+      <label for=""></label>
+      <input type="text" placeholder="Password" v-model="password">
+
+      <div id="terms">
+        <h3> I consent to the terms and conditions </h3>
+        <input type="checkbox" value="Yes" v-model="checkedValues">
+        <label for=""></label>
+        <H3>Your Response was: </H3>
+        {{ checkedValues }}
+      </div>
+
+      <input type="submit" value="Submit">
     </div>
-    <br>
-    <br>
-    <div>
-      <H3> I would like to be sent promotioinal emails </H3>
-      <input type="checkbox" value="Yes" v-model="checkedValues">
-      <label for=""> Yes </label>
-      <input type="checkbox" value="No" v-model="checkedValues">
-      <label for=""> No </label>
-      <br>
-      <br>
-      <H3>Your Response was: </H3>
-      {{ checkedValues }}
-      <br>
-      <br>
-    </div>
+
+
+
 
     <div id="rendering">
       <div>
@@ -60,9 +39,28 @@ export default {
         <br>
         <div>
           <br>
-          You selected: {{ selected }}
+          Thanks {{ selected }}
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: "",
+      password: "",
+      email: "",
+      checkedValues: [],
+      optionMessage: "How did you hear about us? ",
+      selected: "",
+    }
+  }
+}
+</script>
+
+<style>
+@import './styling/signup.css';
+</style>
