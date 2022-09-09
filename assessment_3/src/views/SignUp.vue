@@ -28,6 +28,7 @@
       <H3>Your Response was: </H3>
 
       {{checkedValues}}
+
     </div>
 
   </div>
