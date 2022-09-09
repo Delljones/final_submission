@@ -5,7 +5,6 @@
       <h2> Signup now and receive the
         <br>latest information straight to
         <br>your inbox! </h2>
-
       <label for=""></label>
       <input type="text" placeholder="Name" v-model="formname">
       <label for=""></label>
@@ -24,12 +23,9 @@
       <input type="submit" value="Submit">
     </div>
 
-
-
-
     <div id="rendering">
       <div>
-        <h3>{{ optionMessage}}</h3>
+        <h3>{{ optionMessage }}</h3>
         <select v-model="selected">
           <option disabled> Please select an option</option>
           <option value="Facebook">Facebook</option>
@@ -59,8 +55,8 @@ export default {
     }
   }
 }
-</script>
 
+</script>
 <style>
-@import './styling/signup.css';
+@import './viewStyling/signup.css';
 </style>

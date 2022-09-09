@@ -1,5 +1,14 @@
 <template>
   <div class="home">
-    <h1>This is a home page</h1>
+    <h1>Welcome to the Baby Translator Hub</h1>
+    <h2>Everything you need to understand your baby</h2>
   </div>
 </template>
+
+<style>
+
+</style>
+
+<script>
+
+</script>

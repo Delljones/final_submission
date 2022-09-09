@@ -9,6 +9,17 @@
   </div>
   <div class="container">
     <router-view></router-view>
-
   </div>
+
+  <div class="footer">
+    <footer-main></footer-main>
+  </div>
+
 </template>
+
+<script>
+import FooterMain from "@/components/FooterMain";
+export default {
+  components: {FooterMain}
+}
+</script>
