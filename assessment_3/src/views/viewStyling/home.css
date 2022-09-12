@@ -1,13 +1,29 @@
-.home {
-
+.heading {
     display: grid;
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 700px;
-    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    width: 100%;
+    height: auto;
+    margin: 20px;
     text-align: center;
     border: 3px solid black;
-    border-radius: 300px;
-    padding: 30px 0px 100px;
+    padding: 20px 100px 10px;
+    background-color: deepskyblue;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    border-radius: 10px;
+}
+
+h2, p {
+    color: cornsilk;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+.images {
+    display: contents;
+    align-items: flex-start;
+    padding: 1cm;
 }

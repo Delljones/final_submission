@@ -14,7 +14,7 @@
 
       <div id="terms">
         <h3> I consent to the terms and conditions </h3>
-        <input type="checkbox" value="Yes" v-model="checkedValues">
+        <input type="checkbox" value="Yes" v-model.trim="checkedValues">
         <label for=""></label>
         <H3>Your Response was: </H3>
         {{ checkedValues }}
@@ -25,6 +25,8 @@
 
     <div id="rendering">
       <div>
+<!--        evidence of Vmodel to bind data -->
+
         <h3>{{ optionMessage }}</h3>
         <select v-model="selected">
           <option disabled> Please select an option</option>
@@ -43,6 +45,8 @@
 </template>
 
 <script>
+
+
 export default {
   data() {
     return {

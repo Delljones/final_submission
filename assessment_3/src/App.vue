@@ -1,4 +1,8 @@
 <template>
+
+<!--Implementation of the router within the project to form the basis of -->
+<!--the function and then all content can sit under this   -->
+
   <div id="nav">
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>

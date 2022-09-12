@@ -6,13 +6,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
     background-color: darkseagreen;
     color: white;
     z-index: 2;
     padding-left: 1cm;
     padding-right: 1cm;
-    height: 100px;
+    height: 50px;
 
 }
 
@@ -21,20 +20,13 @@
     color: black;
 }
 
-.footer-left {
-    position: fixed;
-    left: 0.5cm;
-    padding-left: 2cm;
-}
-
-.footer-middle {
-    position: fixed;
-
-}
-
 .footer-right {
     position: fixed;
     right: 0.5cm;
 
+}
+
+.icons{
+    padding-left: 0.3cm;
 }
 
