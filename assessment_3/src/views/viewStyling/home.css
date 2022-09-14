@@ -5,7 +5,7 @@
     align-content: center;
     width: 100%;
     height: auto;
-    margin: 20px;
+    margin-bottom: 2cm;
     text-align: center;
     border: 3px solid black;
     padding: 20px 100px 10px;
@@ -22,8 +22,36 @@ h1 {
     font-size: 30pt;
 }
 
-.images {
-    display: contents;
-    align-items: flex-start;
-    padding: 1cm;
+.main-buttons {
+    margin-top: 5cm;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+button {
+    width: 8cm;
+    height: 8cm;
+    margin: 0.5cm;
+    background-color: #fad4c0;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    background-color: darkseagreen;
+
+}
+
+
+#images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3cm;
+
 }

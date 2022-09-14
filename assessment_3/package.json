@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve --open"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -17,8 +18,11 @@
     "bootstrap": "^5.2.1",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
+    "mdb-vue-ui-kit": "^2.0.0",
     "vue": "^3.2.39",
-    "vue-router": "^4.0.3"
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^4.0.3",
+    "vue3-carousel": "^0.1.46"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -31,6 +35,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "vue-cli-plugin-mdb5": "~1.2.0"
   }
 }
