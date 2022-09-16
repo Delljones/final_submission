@@ -1,7 +1,6 @@
 <template>
   <div class="new-post">
       <div class="all-content">
-
         <div class="title">Title: {{ title }}</div>
         <div class="subtitle">{{ subtitle }}</div>
         <div class="content">{{ content }}</div>
@@ -11,7 +10,6 @@
       <footer>
         <h1>this is a footer</h1>
       </footer>
-
   </div>
 </template>
 <script>
@@ -30,9 +28,7 @@ export default {
   };
 
 </script>
-
 <style scoped>
-
 .new-post {
   display: grid;
   justify-items: center;
@@ -44,7 +40,6 @@ export default {
   overflow-x: hidden;
   background-image: linear-gradient(to left, #553c9a, #b393d3);
   width: 100%;
-
 }
 
 .blog-image {
@@ -69,6 +64,4 @@ footer {
   border: 1pt solid gold;
   padding: 1cm;
 }
-
-
 </style>
