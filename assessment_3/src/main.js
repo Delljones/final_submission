@@ -14,6 +14,7 @@ import {library} from "@fortawesome/fontawesome-svg-core";
 import {fas, faBaby} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import {faFacebook, faInstagram, faTwitter, faYoutube, } from "@fortawesome/free-brands-svg-icons";
+
 // Adding the Icon library for Footer
 library.add(fas)
 library.add(faFacebook)
@@ -22,13 +23,16 @@ library.add(faTwitter)
 library.add(faYoutube)
 library.add(faBaby)
 
+
 createApp(App).use(router)
+
     .component(
         'font-awesome-icon',
         FontAwesomeIcon,
         Carousel,
         MainButtons,
-        ModalPopup)
+        ModalPopup,
+        )
     .mount("#app");
 
 

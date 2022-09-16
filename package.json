@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "mdb-vue-ui-kit": "^2.0.0"
+    "mdb-vue-ui-kit": "^2.0.0",
+    "vue-faker": "^3.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0"
   }
 }

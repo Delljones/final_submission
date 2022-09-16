@@ -1,15 +1,25 @@
 <template>
   <div class="main-buttons">
-    <button class="main-button" @click="showModal">HEH Sound</button>
+
+    <button  class="main-button"  @click="showModal"> HEH Sound</button>
+    <ModalPopup v-show="isModalVisible" @close="closeModal"  />
+
+    <button class="main-button" @click="showModal">NEH Sound</button>
+    <ModalPopup v-show="isModalVisible" @close="closeModal"></ModalPopup>
+
+    <button class="main-button" @click="showModal">EH Sound</button>
+    <ModalPopup  v-show="isModalVisible" @close="closeModal" />
+
+    <button class="main-button" @click="showModal">OWH Sound</button>
     <ModalPopup v-show="isModalVisible" @close="closeModal" />
-    <button class="main-button">EH Sound</button>
-    <button class="main-button">OWH Sound</button>
-    <button class="main-button">NEH Sound</button>
-    <button class="main-button">EARH Sound</button>
+
+    <button class="main-button" @click="showModal">EAIRGH Sound</button>
+    <ModalPopup v-show="isModalVisible" @close="closeModal" />
   </div>
 </template>
 
 <script>
+
 import ModalPopup from "@/components/SoundPopup";
 
 export default {
@@ -19,6 +29,7 @@ export default {
   },
   data() {
     return {
+      text: "",
       isModalVisible: false
     };
   },
@@ -28,13 +39,9 @@ export default {
     },
     closeModal() {
       this.isModalVisible = false;
-    }
+    },
   }
 };
 </script>
-
 <style scoped>
-
-
-
 </style>
