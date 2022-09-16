@@ -20,38 +20,55 @@ h2, p {
 
 h1 {
     font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+    color: #2c3e50;
 }
 
-.main-buttons {
-    margin-top: 5cm;
-    position: center;
+h1:hover {
+    color: white;
+}
+
+.main-buttons{
+
     display: flex;
-    align-items: center;
     justify-content: center;
-    align-content: center;
-
+    align-items: center;
+    height: 300px;
+    margin-bottom: 5cm;
 }
 
-button {
-    width: 8cm;
-    height: 8cm;
-    margin: 0.5cm;
-    background-color: #fad4c0;
-    border: 3px solid black;
-    border-radius: 10px;
-
+.main-button {
+    background: mintcream;
+    margin-right: 2cm;
+    position: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: 35px;
+    width: 5cm;
+    height: 5cm;
+    padding: 0.5cm;
 }
-
 button:hover {
     background-color: darkseagreen;
-
 }
-
 
 #images {
     position: relative;
     display: flex;
     align-items: center;
     padding: 3cm;
-
 }
+
+
+.introduction-text {
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    font-weight: bold;
+    font-family: 'Roboto Mono', Monaco, courier, monospace;
+    font-size: 22pt;
+    padding: 30px;
+}
+

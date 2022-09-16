@@ -1,8 +1,6 @@
 <template>
-
-<!--Implementation of the router within the project to form the basis of -->
-<!--the function and then all content can sit under this   -->
-
+  <!--Implementation of the router within the project to form the basis of -->
+  <!--the function and then all content can sit under this   -->
   <div id="nav">
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
@@ -14,16 +12,50 @@
   <div class="container">
     <router-view></router-view>
   </div>
-
+<!--  // Implementation of the footer to sit as a static item at the bottom of the page-->
   <div class="footer">
     <footer-main></footer-main>
   </div>
-
 </template>
 
 <script>
+
+// Importing the main footer
 import FooterMain from "@/components/FooterMain";
+
 export default {
   components: {FooterMain}
 }
 </script>
+
+<style scoped>
+/* Navigation */
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  padding: 50px;
+  background: mintcream;
+  color: white;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+#nav a {
+  display: block;
+  margin-right: 25px;
+  color: black;
+  opacity: 0.7;
+}
+#nav a.router-link-active,
+#nav a:hover {
+  opacity: 200;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>

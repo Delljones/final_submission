@@ -1,7 +1,7 @@
 <!--from https://ismail9k.github.io/vue3-carousel/getting-started.html-->
 
 <template>
-  <Carousel :items-to-show="2" :wrap-around="false">
+  <Carousel :items-to-show="2" :autoplay="3000" :wrap-around="true">
     <Slide class="slide" v-for="slide in slides" :key="slide">
       <img :src="slide" alt="slide"/>
     </Slide>
@@ -42,25 +42,5 @@ export default {
   },
 };
 </script>
-
-
 <style>
-
-
-img {
-  height: 100%;
-}
-
-.slide {
-  min-height: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
-
-
-}
-
-
 </style>

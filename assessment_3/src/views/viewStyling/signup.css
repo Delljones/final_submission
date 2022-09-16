@@ -13,7 +13,8 @@ h1 {
     border: 3px solid black;
     border-radius: 300px;
     padding: 30px 300px 100px;
-    margin-bottom: 10cm;
+    margin-bottom: 1cm;
+
 }
 
 input {
@@ -25,7 +26,6 @@ input {
     height: 40px;
     margin-bottom: 0.5cm;
     padding-left: 10px;
-
 }
 
 input[type=submit]{
@@ -34,17 +34,14 @@ input[type=submit]{
 
 input[type=submit]:hover {
     background-color: lightgreen;
-
 }
 
 #terms {
-
     font-size: 12px;
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 
 

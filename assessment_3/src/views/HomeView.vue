@@ -3,43 +3,38 @@
     <div class="heading">
       <h1>Welcome to the Baby Translator</h1>
       <h2>Everything you need to understand your baby</h2>
-     =
     </div>
-
     <Carousel></Carousel>
-
+    <div class="introduction-text">
+      <font-awesome-icon icon="fa-solid fa-baby"/>
+      <br><br>
+      <p1>
+        Newborn babies are very special indeed and a joy to bring home. Sometimes it can be difficult to determine
+        how to respond to their needs. <br><br> Did you know that there is a language that all babies speak and is
+        universal through different cultures?<br><br> The sounds that your new born is making can help you identify
+        what they are needing - Taking all of the guess work out of it.
+      </p1>
+    </div>
+    <div class="heading">
+      <h1>WHAT SOUND IS YOUR BABY MAKING?</h1>
+    </div>
     <!-- Listening Events    -->
-    <div class="main-buttons">
-      <button>Heh </button>
-      <button>submit</button>
-      <button>submit</button>
-      <button>submit</button>
-    </div>
 
-    <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
-
-
-    <div class="bg-image hover-zoom" id="images">
-      <img src="https://mdbootstrap.com/img/new/standard/city/053.webp" class="w-50"/>
-      <img src="https://mdbootstrap.com/img/new/standard/city/053.webp" class="w-50"/>
-      <img src="https://mdbootstrap.com/img/new/standard/city/053.webp" class="w-50"/>
-      <img src="https://mdbootstrap.com/img/new/standard/city/053.webp" class="w-50"/>
-    </div>
-    </div>
-
+    <MainButtons></MainButtons>
+  </div>
 
 </template>
 
-<style>
-
-</style>
-
-<script>
+<script scoped>
 // Script for the Carousel of baby sounds
 import Carousel from "@/components/Carousel";
+import MainButtons from "@/components/MainButtons";
 export default {
-  components: {Carousel}
+  name: "App",
+  components: {
+    MainButtons,
+    Carousel,
+  }
 }
-
 
 </script>
