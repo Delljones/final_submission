@@ -1,7 +1,6 @@
 <template>
   <div class="new-post">
       <div class="all-content">
-
         <div class="title">Title: {{ title }}</div>
         <div class="subtitle">{{ subtitle }}</div>
         <div class="content">{{ content }}</div>
@@ -9,7 +8,7 @@
         <div class="description">#{{ description }}</div>
       </div>
       <footer>
-        <h1>this is a footer</h1>
+        <h1>Click here for more information</h1>
       </footer>
 
   </div>
@@ -34,12 +33,12 @@ export default {
 <style scoped>
 
 .new-post {
-  display: grid;
+  display: block;
   justify-items: center;
   align-items: center;
   border: #2c3e50 2pt solid;
   border-radius: 30px;
-  padding: 2cm;
+  padding: 0.5cm;
   margin: 3cm auto 5cm;
   overflow-x: hidden;
   background-image: linear-gradient(to left, #553c9a, #b393d3);
@@ -67,7 +66,7 @@ export default {
 footer {
   border-radius: 10px;
   border: 1pt solid gold;
-  padding: 1cm;
+
 }
 
 

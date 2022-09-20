@@ -4,7 +4,7 @@
     <ModalPopup v-show="isModalVisible" message = "This is a HEH Sound" @close="closeModal"  />
 
     <button class="main-button" @click="showModal">NEH Sound</button>
-    <ModalPopup  v-show="isModalVisible" @close="closeModal" message = "message"> </ModalPopup>
+    <ModalPopup  v-show="isModalVisible" @close="closeModal" message = "Neh message"> </ModalPopup>
 
     <button class="main-button" @click="showModal">EH Sound</button>
     <ModalPopup  v-show="isModalVisible" @close="closeModal" />

@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Slide.vue"
+  name: "SlideShow.vue"
 }
 </script>
 

@@ -41,8 +41,8 @@ export default {
 <style scoped>
 
 .feed {
-  display: inline-flex;
-  position: static;
+  display: grid;
+  position: relative;
   align-items: inherit;
 }
 
