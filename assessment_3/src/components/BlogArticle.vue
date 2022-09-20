@@ -1,15 +1,17 @@
 <template>
   <div class="new-post">
       <div class="all-content">
-        <div class="title"><h1>{{ title }}</h1><br><br></div>
-        <div class="subtitle"><h2>{{ subtitle }}</h2><br><br></div>
-        <div class="content">{{ content }}<br><br></div>
-        <div class="published-date">Publish Date {{ publishedDate }}<br><br></div>
-        <div class="description">#{{ description }}<br><br></div>
+
+        <div class="title">Title: {{ title }}</div>
+        <div class="subtitle">{{ subtitle }}</div>
+        <div class="content">{{ content }}</div>
+        <div class="published-date">Publish Date {{ publishedDate }}</div>
+        <div class="description">#{{ description }}</div>
       </div>
       <footer>
-        <p>Click to read more </p>
+        <h1>this is a footer</h1>
       </footer>
+
   </div>
 </template>
 <script>
@@ -26,26 +28,33 @@ export default {
     }
   }
   };
+
 </script>
 
 <style scoped>
+
 .new-post {
   display: grid;
   justify-items: center;
   align-items: center;
   border: #2c3e50 2pt solid;
   border-radius: 30px;
-  padding: 1cm;
-  margin: 3cm 1cm 5cm;
+  padding: 2cm;
+  margin: 3cm auto 5cm;
   overflow-x: hidden;
   background-image: linear-gradient(to left, #553c9a, #b393d3);
   width: 100%;
+
+}
+
+.blog-image {
+  margin-bottom: 2cm;
+  margin-right: 2cm;
+  position: center;
 }
 
 .title .subtitle.content .published-date {
   text-align: center;
-  font-weight: bold;
-  font-size: 15pt;
 }
 
 .all-content {
@@ -60,4 +69,6 @@ footer {
   border: 1pt solid gold;
   padding: 1cm;
 }
+
+
 </style>
