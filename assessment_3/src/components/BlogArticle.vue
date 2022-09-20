@@ -1,15 +1,15 @@
 <template>
   <div class="new-post">
-      <div class="all-content">
-        <div class="title">Title: {{ title }}</div>
-        <div class="subtitle">{{ subtitle }}</div>
-        <div class="content">{{ content }}</div>
-        <div class="published-date">Publish Date {{ publishedDate }}</div>
-        <div class="description">#{{ description }}</div>
-      </div>
-      <footer>
-        <h1>Click here for more information</h1>
-      </footer>
+    <div class="all-content">
+      <div class="title"> <h1>{{ title }} </h1></div>
+      <div class="subtitle"> <h2>{{ subtitle }}</h2></div>
+      <div class="content">{{ content }}</div>
+      <div class="published-date">Publish Date {{ publishedDate }}</div>
+      <div class="description">#{{ description }}</div>
+    </div>
+    <footer>
+      <h1>Click here for more information</h1>
+    </footer>
 
   </div>
 </template>
@@ -26,12 +26,10 @@ export default {
       return {}
     }
   }
-  };
-
+};
 </script>
 
 <style scoped>
-
 .new-post {
   display: block;
   justify-items: center;
@@ -43,13 +41,6 @@ export default {
   overflow-x: hidden;
   background-image: linear-gradient(to left, #553c9a, #b393d3);
   width: 100%;
-
-}
-
-.blog-image {
-  margin-bottom: 2cm;
-  margin-right: 2cm;
-  position: center;
 }
 
 .title .subtitle.content .published-date {
@@ -68,6 +59,4 @@ footer {
   border: 1pt solid gold;
 
 }
-
-
 </style>
