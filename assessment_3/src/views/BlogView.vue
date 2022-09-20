@@ -1,7 +1,7 @@
 <template>
   <div class="blog">
     <header>
-      <h1>This is a Blog Page</h1>
+      <h1>Welcome to Our Blog</h1>
     </header>
     <div class="feed">
       <BlogFeed></BlogFeed>

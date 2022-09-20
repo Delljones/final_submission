@@ -4,12 +4,9 @@
       <div class="modal">
         <div class="modal-header">This is what your baby is saying!</div>
         <footer class="modal-footer">
-          <div class="modal-h2">Description goes here - Needs to have a props cast
-            to it
+          <div class="modal-h2" >Message is : {{message}}
           </div>
-          <slot name="footer">
             <button type="button" class="modal-popup" @click="close">Click to Close!</button>
-          </slot>
         </footer>
       </div>
     </div>
@@ -18,10 +15,15 @@
 
 <script>
 export default {
-  name: "ModalPopup",
 
+  props: [
+    'message'
+  ],
+  name: "ModalPopup",
   components:{
   },
+
+
 
  data () {
     return{

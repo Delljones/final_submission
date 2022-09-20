@@ -4,11 +4,9 @@ import App from "./App.vue";
 import router from "./router/router.js";
 import './main.css';
 import './views/viewStyling/home.css';
-
 import Carousel from "@/components/Carousel";
 import ModalPopup from "@/components/SoundPopup";
 import MainButtons from "@/components/MainButtons";
-
 // importing Adding the Icon library for Footer icons
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {fas, faBaby} from "@fortawesome/free-solid-svg-icons";
@@ -23,9 +21,7 @@ library.add(faTwitter)
 library.add(faYoutube)
 library.add(faBaby)
 
-
 createApp(App).use(router)
-
     .component(
         'font-awesome-icon',
         FontAwesomeIcon,

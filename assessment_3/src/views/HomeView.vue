@@ -11,7 +11,7 @@
         Newborn babies are very special indeed and a joy to bring home. Sometimes it can be difficult to determine
         how to respond to their needs. <br><br> Did you know that there is a language that all babies speak and is
         universal through different cultures?<br><br> The sounds that your new born is making can help you identify
-        what they are needing - Taking all of the guess work out of it. <br>
+        what they are needing - Taking all of the guess work out of it. <br><br>
       </p1>
       <Carousel></Carousel>
     </div>

@@ -1,11 +1,10 @@
 <template>
   <div class="main-buttons">
-
     <button  class="main-button"  @click="showModal"> HEH Sound</button>
-    <ModalPopup v-show="isModalVisible" @close="closeModal"  />
+    <ModalPopup v-show="isModalVisible" message = "This is a HEH Sound" @close="closeModal"  />
 
     <button class="main-button" @click="showModal">NEH Sound</button>
-    <ModalPopup v-show="isModalVisible" @close="closeModal"></ModalPopup>
+    <ModalPopup  v-show="isModalVisible" @close="closeModal" message = "message"> </ModalPopup>
 
     <button class="main-button" @click="showModal">EH Sound</button>
     <ModalPopup  v-show="isModalVisible" @close="closeModal" />
@@ -21,7 +20,6 @@
 <script>
 
 import ModalPopup from "@/components/SoundPopup";
-
 export default {
   name: "MainButtons",
   components: {
