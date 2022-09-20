@@ -30,6 +30,15 @@ export default {
 </script>
 
 <style scoped>
+
+h1 {
+  margin-bottom: 0.54cm;
+}
+
+h2 {
+  text-align: center ;
+  margin-bottom: 0.5cm;
+}
 .new-post {
   display: block;
   justify-items: center;
