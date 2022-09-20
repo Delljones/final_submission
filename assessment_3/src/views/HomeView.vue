@@ -13,13 +13,10 @@
         universal through different cultures?<br><br> The sounds that your new born is making can help you identify
         what they are needing - Taking all of the guess work out of it. <br><br>
       </p1>
+      <MainVideo></MainVideo>
       <Carousel></Carousel>
     </div>
 
-    <div class="video">
-    </div>
-
-    <MainVideo></MainVideo>
     <div class="heading">
       <h1>WHAT SOUND IS YOUR BABY MAKING?</h1>
     </div>

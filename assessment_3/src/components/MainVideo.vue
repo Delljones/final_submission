@@ -22,8 +22,13 @@ export default {
 h1 {
   text-align: center;
   position: center;
+  font-weight: bold;
+  margin-bottom: 1cm;
+  text-decoration: underline;
+  font-family: 'Font Awesome 6 Pro', 'Font Awesome 6 Free'
 }
+
 iframe {
-  margin: 1cm 3cm 2cm 5cm;
+  margin-bottom: 3cm;
 }
 </style>
