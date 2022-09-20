@@ -44,8 +44,6 @@ export default {
   display: inline-flex;
   position: static;
   align-items: inherit;
-
-
 }
 
 </style>

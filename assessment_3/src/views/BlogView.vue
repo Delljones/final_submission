@@ -6,13 +6,6 @@
     <div class="feed">
       <BlogFeed></BlogFeed>
     </div>
-
-
-
-
-
-
-
   </div>
 </template>
 
@@ -22,6 +15,4 @@ import BlogFeed from "@/components/BlogFeed";
 export default {
   components: {BlogFeed}
 }
-
-
 </script>
