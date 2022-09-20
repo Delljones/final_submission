@@ -15,6 +15,11 @@
       </p1>
       <Carousel></Carousel>
     </div>
+
+    <div class="video">
+    </div>
+
+    <MainVideo></MainVideo>
     <div class="heading">
       <h1>WHAT SOUND IS YOUR BABY MAKING?</h1>
     </div>
@@ -27,9 +32,12 @@
 // Script for the Carousel of baby sounds
 import Carousel from "@/components/Carousel";
 import MainButtons from "@/components/MainButtons";
+import MainVideo from "@/components/MainVideo";
+
 export default {
   name: "App",
   components: {
+    MainVideo,
     MainButtons,
     Carousel,
   },

@@ -2,11 +2,9 @@
   <transition name="modal-fade">
     <div class="modal-backdrop">
       <div class="modal">
-        <div class="modal-header">This is what your baby is saying!</div>
+
         <footer class="modal-footer">
-          <div class="modal-h2">
-            This is popup message: {{popup}}
-          </div>
+          <div class="modal-h2" > {{popup}}</div>
           <button type="button" class="modal-popup" @click="close">Click to Close!</button>
         </footer>
       </div>
@@ -38,15 +36,11 @@ export default {
 </script>
 
 <style scoped>
-
-.modal-header {
-  justify-content: center;
-  font-weight: bold;
-  font-size: 26pt;
-}
-
 .modal-h2 {
   font-size: 16pt;
+  margin-top: 2cm;
+  padding-left: 2cm;
+  padding-right: 2cm;
 }
 
 .modal-footer {
@@ -57,6 +51,7 @@ export default {
   border-top: 1px solid #eeeeee;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 2cm;
 }
 
 .modal-backdrop {
@@ -72,7 +67,7 @@ export default {
   justify-content: center;
   align-content: center;
   width: 20cm;
-  height: 10cm;
+  height: 12cm;
   margin: 10% 24% 30px;
   background: mintcream;
   box-shadow: 20px 20px 30px 10px;
@@ -80,13 +75,11 @@ export default {
 
 .modal-popup {
   border: 1pt solid black;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
+  align-content: center;
   font-weight: bold;
   text-align: center;
   margin-top: 2cm;
-
-
 }
-
 </style>
