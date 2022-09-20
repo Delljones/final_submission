@@ -15,8 +15,8 @@
         description="Description of how to get a good sleep"
     ></BlogArticle>
     <BlogArticle
-        title="Sleeping Through the Night"
-        subtitle="How to get a good sleep"
+        title="Read The Cues"
+        subtitle="How to Listen to your baby"
         content="Lorem LoremLoremLorem  "
         published-date= "03 September 2022"
         description="This is the Description"
@@ -39,11 +39,9 @@ export default {
 </script>
 
 <style scoped>
-
 .feed {
   display: grid;
   position: relative;
   align-items: inherit;
 }
-
 </style>

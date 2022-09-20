@@ -4,9 +4,10 @@
       <div class="modal">
         <div class="modal-header">This is what your baby is saying!</div>
         <footer class="modal-footer">
-          <div class="modal-h2" >Message is : {{message}}
+          <div class="modal-h2">
+            This is popup message: {{popup}}
           </div>
-            <button type="button" class="modal-popup" @click="close">Click to Close!</button>
+          <button type="button" class="modal-popup" @click="close">Click to Close!</button>
         </footer>
       </div>
     </div>
@@ -15,20 +16,17 @@
 
 <script>
 export default {
-
-  props: [
-    'message'
-  ],
   name: "ModalPopup",
+  props: {
+    popup : String
+  },
   components:{
   },
 
-
-
- data () {
+  data () {
     return{
     }
- },
+  },
 
   methods: {
     close() {

@@ -8,7 +8,7 @@
       <div class="description">#{{ description }}</div>
     </div>
     <footer>
-      <h1>Click here for more information</h1>
+      <p>Click here for more information </p>
     </footer>
 
   </div>
@@ -30,6 +30,11 @@ export default {
 </script>
 
 <style scoped>
+
+p {
+  text-align: center;
+  padding: 0.5cm;
+}
 
 h1 {
   margin-bottom: 0.54cm;
