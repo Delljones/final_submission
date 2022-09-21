@@ -19,10 +19,8 @@
 </template>
 
 <script>
-
 // Importing the main footer as a component in the Application
 import FooterMain from "@/components/FooterMain";
-
 export default {
   components: {FooterMain}
 }

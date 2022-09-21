@@ -1,3 +1,5 @@
+
+/*Styling in anoter filing for the signup as the styling was quite involved */
 h1 {
     color: #fad4c0;
 }
@@ -14,7 +16,6 @@ h1 {
     border-radius: 300px;
     padding: 30px 300px 100px;
     margin-bottom: 1cm;
-
 }
 
 input {
@@ -32,6 +33,7 @@ input[type=submit]{
     margin-top: 0.5cm;
 }
 
+/*Using a Hover concept */
 input[type=submit]:hover {
     background-color: lightgreen;
 }

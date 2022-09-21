@@ -1,10 +1,11 @@
 <template>
+<!--  This code will allow when the buttons are pressed to show a message relevant to the sound-->
+<!--  It is an example of @click / @close and also dynamic props -->
   <transition name="modal-fade">
     <div class="modal-backdrop">
       <div class="modal">
-
         <footer class="modal-footer">
-          <div class="modal-h2" > {{popup}}</div>
+          <div class="modal-h2"> {{ popup }}</div>
           <button type="button" class="modal-popup" @click="close">Click to Close!</button>
         </footer>
       </div>
@@ -13,29 +14,21 @@
 </template>
 
 <script>
+
 export default {
   name: "ModalPopup",
   props: {
-    popup : String
-  },
-  components:{
-  },
-
-  data () {
-    return{
-    }
-  },
-
+    popup: String},
   methods: {
     close() {
       this.$emit("close");
     },
   }
 };
-
 </script>
 
 <style scoped>
+
 .modal-h2 {
   font-size: 16pt;
   margin-top: 2cm;
@@ -48,8 +41,7 @@ export default {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-top: 1px solid #eeeeee;
-  text-align: center;
+  border-top: 5px solid #eeeeee;
   font-weight: bold;
   margin-bottom: 2cm;
 }
@@ -82,4 +74,5 @@ export default {
   text-align: center;
   margin-top: 2cm;
 }
+
 </style>

@@ -1,3 +1,7 @@
+
+// Main JS handles all of the plug ins and compartments -
+// It is where the project is launched from on the local host
+
 import 'mdb-vue-ui-kit/css/mdb.min.css'
 import {createApp} from "vue";
 import App from "./App.vue";
@@ -12,7 +16,7 @@ import {fas, faBaby} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import {faFacebook, faInstagram, faTwitter, faYoutube, } from "@fortawesome/free-brands-svg-icons";
 
-// Adding the Icon library for Footer
+// Adding the Font Awesome Icon library for Footer
 library.add(fas)
 library.add(faFacebook)
 library.add(faInstagram)
@@ -20,6 +24,7 @@ library.add(faTwitter)
 library.add(faYoutube)
 library.add(faBaby)
 
+// Using the router in the create App section along with other plugins
 createApp(App).use(router)
     .component(
         'font-awesome-icon',

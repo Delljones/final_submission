@@ -24,5 +24,5 @@ for font icons as assistance for icon styling  - Downloaded as a NPM package -->
 </script>
 
 <style>
-@import './footer.css';
+@import '../views/viewStyling/footer.css';
 </style>

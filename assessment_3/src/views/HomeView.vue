@@ -16,7 +16,6 @@
       <MainVideo></MainVideo>
       <Carousel></Carousel>
     </div>
-
     <div class="heading">
       <h1>WHAT SOUND IS YOUR BABY MAKING?</h1>
     </div>

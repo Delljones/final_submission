@@ -1,3 +1,5 @@
+
+/*Main styling for the home page - in a separate document given that there were many elements*/
 .heading {
     display: grid;
     align-items: center;
@@ -30,7 +32,6 @@ h1:hover {
 }
 
 .main-buttons{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +61,6 @@ button:hover {
     align-items: center;
     padding: 3cm;
 }
-
 
 .introduction-text {
     text-align: center;
