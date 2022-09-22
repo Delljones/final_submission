@@ -7,9 +7,7 @@
       <div class="published-date">Publish Date {{ publishedDate }}</div>
       <div class="description">#{{ description }}</div>
     </div>
-    <footer>
-      <p>Click here for more information </p>
-    </footer>
+
 
   </div>
 </template>
@@ -31,18 +29,37 @@ export default {
 
 <style scoped>
 
+button {
+  align-items: center;
+  position: relative;
+  display: flex;
+  margin-left: 12cm;
+  height: 2cm;
+
+}
+
+.content {
+  text-align: center;
+  padding: 0.5cm;
+  margin-bottom: 2cm;
+
+}
+
 p {
   text-align: center;
   padding: 0.5cm;
+  margin-bottom: 0.3cm;
 }
 
 h1 {
   margin-bottom: 0.54cm;
+  background: #b393d3;
 }
 
 h2 {
   text-align: center ;
   margin-bottom: 0.5cm;
+  color: #fad4c0;
 }
 .new-post {
   display: block;
@@ -51,10 +68,11 @@ h2 {
   border: #2c3e50 2pt solid;
   border-radius: 30px;
   padding: 0.5cm;
-  margin: 3cm auto 5cm;
+  margin: 2cm auto 0.5cm;
   overflow-x: hidden;
   background-image: linear-gradient(to left, #553c9a, #b393d3);
   width: 100%;
+
 }
 
 .title .subtitle.content .published-date {
