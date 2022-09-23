@@ -3,7 +3,7 @@
 <!--    Creating a contact form that users can leave their details  - Later down the track improved functionality -->
 <!--    can be added where the information can be sent to a database or in form of an email -->
     <h1>Please Leave Your Details Below to Contact Us</h1><br>
-    <div class="container">
+    <div class="submitcontainer">
       <form contact>
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -12,7 +12,7 @@
         <label for="subject">Your Message <br></label>
         <br>
         <textarea id="subject" name="subject" placeholder="Please write your message here"></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="submit">
       </form>
     </div>
   </div>
@@ -26,9 +26,19 @@ h1 {
   border-radius: 15px;
 }
 
+.submitcontainer {
+  padding: 1cm;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  border-radius: 15px;
+}
+
 #subject {
   height: 200px;
   width: 900px;
+
+}
+.submit {
+  margin-bottom: 2cm;
 }
 
 label {
