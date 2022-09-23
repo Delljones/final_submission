@@ -1,4 +1,5 @@
 <template>
+<!--  Main home page of the project and sets the main content for the project-->
   <div class="homepage">
     <div class="heading">
       <h1>Welcome to the Baby Translator</h1>

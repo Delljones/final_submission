@@ -6,15 +6,15 @@ import 'mdb-vue-ui-kit/css/mdb.min.css'
 import {createApp} from "vue";
 import App from "./App.vue";
 import router from "./router/router.js";
-import './main.css';
+import './views/viewStyling/main.css';
 import './views/viewStyling/home.css';
 import Carousel from "@/components/Carousel";
 import ModalPopup from "@/components/SoundPopup";
 import MainButtons from "@/components/MainButtons";
 import {library} from "@fortawesome/fontawesome-svg-core";
-import {fas, faBaby} from "@fortawesome/free-solid-svg-icons";
+import {faBaby, fas} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
-import {faFacebook, faInstagram, faTwitter, faYoutube, } from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faInstagram, faTwitter, faYoutube,} from "@fortawesome/free-brands-svg-icons";
 
 // Adding the Font Awesome Icon library for Footer
 library.add(fas)

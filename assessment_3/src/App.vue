@@ -6,26 +6,27 @@
     <router-link to="/about">About</router-link>
     <router-link to="/Blog">Blog</router-link>
     <router-link to="/contact">Contact Us</router-link>
-    <router-link to="/community">Community</router-link>
     <router-link to="/SignUp">Sign Up</router-link>
   </div>
+<!--  Main area where the content is-->
   <div class="container">
-    <router-view></router-view>
+    <router-view/>
   </div>
-<!--  // Implementation of the footer to sit as a static item at the bottom of the page-->
+  <!--  // Implementation of the footer to sit as a static item at the bottom of the page-->
   <div class="footer">
-    <footer-main></footer-main>
+    <footer-main/>
   </div>
 </template>
 
 <script>
 // Importing the main footer as a component in the Application
 import FooterMain from "@/components/FooterMain";
+
 export default {
   components: {FooterMain}
 }
 </script>
-
+//inline styling included
 <style scoped>
 /* Navigation */
 #nav {
@@ -47,13 +48,20 @@ export default {
   color: black;
   opacity: 0.7;
 }
-#nav a.router-link-active,
+
+nav:active {
+
+}
+#nav a,
 #nav a:hover {
-  opacity: 200;
+  opacity: 500;
+  font-size: 22pt;
 }
 
-a {
+a{
   text-decoration: none;
   font-weight: bold;
+  font-size: 20pt;
 }
+
 </style>
